@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DevadasAnalytics
+  host: DevadasAnalytics
+  disk_quota: 1024M
+  services:
+  - Apache Spark-4z
+  - DevadasAnalytics-cloudantNoSQLDB
